@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bots4Botswana — Robotics Education for Students in Botswana</title>
+<meta name="description" content="Bots4Botswana is a student-led initiative that collects, refurbishes, and donates LEGO Mindstorms robotics kits to underserved students in Botswana.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="2" y="8" width="26" height="18" rx="4" fill="#2E7BD6"/>
+        <circle cx="9" cy="6" r="3" fill="#E2622B"/>
+        <circle cx="21" cy="6" r="3" fill="#E2622B"/>
+        <rect x="8" y="14" width="6" height="6" rx="1.5" fill="#0A1628"/>
+        <rect x="16" y="14" width="6" height="6" rx="1.5" fill="#0A1628"/>
+      </svg>
+      Bots4Botswana
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="strategy.html">Strategy &amp; Sustainability</a></li>
+      <li><a href="tutorials.html">Tutorials</a></li>
+      <li><a href="get-involved.html">Get Involved</a></li>
+      <li><a href="partners.html">Partners</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-cta"><a href="get-involved.html#donate" class="btn btn-primary btn-sm">Donate</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <div class="eyebrow on-dark">Student-Led Robotics Initiative</div>
+      <h1>Bringing Robotics Education to Students in Botswana</h1>
+      <p class="lead">Bots4Botswana is a student-led initiative expanding access to robotics education — collecting, refurbishing, and donating LEGO Mindstorms EV3 and NXT kits, alongside free learning resources, to underserved students in Botswana.</p>
+      <div class="hero-actions">
+        <a href="get-involved.html#donate" class="btn btn-primary">Donate</a>
+        <a href="about.html" class="btn btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-art reveal in">
+      <svg viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a robotics kit connected by a dashed trace line to labels reading collect, refurbish, ship, and learn">
+        <defs>
+          <radialGradient id="glow" cx="50%" cy="40%" r="65%">
+            <stop offset="0%" stop-color="#1B4E8C" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#1B4E8C" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="240" cy="190" r="180" fill="url(#glow)"/>
+        <!-- trace loop -->
+        <path d="M120 100 C 60 160, 60 260, 140 300 C 220 340, 320 320, 360 250 C 400 180, 360 90, 280 70 C 220 55, 160 65, 120 100 Z"
+          fill="none" stroke="#3FA796" stroke-width="2.5" stroke-dasharray="6 9" opacity="0.7"/>
+        <!-- bot body -->
+        <rect x="170" y="150" width="140" height="100" rx="18" fill="#F6F7F5"/>
+        <rect x="170" y="150" width="140" height="100" rx="18" fill="none" stroke="#0A1628" stroke-opacity="0.06" stroke-width="2"/>
+        <circle cx="210" cy="195" r="12" fill="#0A1628"/>
+        <circle cx="270" cy="195" r="12" fill="#0A1628"/>
+        <circle cx="210" cy="195" r="5" fill="#3FA796"/>
+        <circle cx="270" cy="195" r="5" fill="#3FA796"/>
+        <rect x="200" y="220" width="80" height="10" rx="5" fill="#E2622B"/>
+        <rect x="150" y="170" width="20" height="50" rx="6" fill="#F6F7F5"/>
+        <rect x="310" y="170" width="20" height="50" rx="6" fill="#F6F7F5"/>
+        <rect x="220" y="118" width="40" height="34" rx="8" fill="#2E7BD6"/>
+        <circle cx="240" cy="112" r="6" fill="#CE9B3F"/>
+        <!-- wheels -->
+        <circle cx="190" cy="262" r="16" fill="#0A1628"/>
+        <circle cx="290" cy="262" r="16" fill="#0A1628"/>
+        <circle cx="190" cy="262" r="6" fill="#F6F7F5"/>
+        <circle cx="290" cy="262" r="6" fill="#F6F7F5"/>
+        <!-- nodes around loop -->
+        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#9FB1C2" letter-spacing="1">
+          <circle cx="120" cy="100" r="5" fill="#3FA796"/>
+          <text x="60" y="90">COLLECT</text>
+          <circle cx="360" cy="250" r="5" fill="#3FA796"/>
+          <text x="368" y="254">SHIP</text>
+          <circle cx="140" cy="300" r="5" fill="#3FA796"/>
+          <text x="70" y="322">REFURBISH</text>
+          <circle cx="280" cy="70" r="5" fill="#3FA796"/>
+          <text x="288" y="66">LEARN</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUICK IMPACT STATS ============ -->
+<section class="section-dark">
+  <div class="container">
+    <div class="grid grid-4">
+      <div class="stat-card reveal reveal-1">
+        <span class="stat-num" data-count-to="60" data-suffix="+">0</span>
+        <div class="stat-label">Robotics Kits Collected</div>
+      </div>
+      <div class="stat-card reveal reveal-2">
+        <span class="stat-num" data-count-to="11" data-suffix="">0</span>
+        <div class="stat-label">Expansion Kits</div>
+      </div>
+      <div class="stat-card reveal reveal-3">
+        <span class="stat-num" data-count-to="200" data-suffix="+">0</span>
+        <div class="stat-label">Students Impacted</div>
+      </div>
+      <div class="stat-card reveal reveal-4">
+        <span class="stat-num mono" style="font-size:1.5rem;">100%</span>
+        <div class="stat-label">Student-Led Initiative</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISSION ============ -->
+<section>
+  <div class="container grid grid-2" style="align-items:center;">
+    <div class="reveal">
+      <div class="eyebrow">Why It Matters</div>
+      <h2>Robotics kits don't just teach code — they teach how to think.</h2>
+      <p>Robotics education gives students hands-on experience with engineering, programming, and problem-solving — skills that open doors to further study and careers in STEM. For many students, the barrier isn't ability, it's access to the equipment needed to learn by building.</p>
+      <p>We chose to focus on Botswana because of a direct connection to local robotics teams and educators who identified real, specific need: schools with the enthusiasm to run robotics programs but no kits to run them with. Rather than starting from scratch, we're putting equipment already sitting unused in the U.S. into the hands of students ready to use it.</p>
+      <p>A single donated kit doesn't stop at one lesson. Once refurbished and paired with our tutorials, it supports an entire classroom, semester after semester, as students rotate through building and programming challenges.</p>
+    </div>
+    <div class="reveal reveal-2">
+      <div class="trace-rail">
+        <div class="trace-node">
+          <div class="step-tag">Step 01</div>
+          <h3>A kit is collected</h3>
+          <p class="small">Retired or unused LEGO Mindstorms EV3 and NXT kits are donated by robotics teams, schools, and individuals across the U.S.</p>
+        </div>
+        <div class="trace-node">
+          <div class="step-tag">Step 02</div>
+          <h3>It's refurbished &amp; tested</h3>
+          <p class="small">Every kit is inspected, cleaned, and quality-checked piece by piece before it's cleared for shipment.</p>
+        </div>
+        <div class="trace-node">
+          <div class="step-tag">Step 03</div>
+          <h3>It reaches a classroom</h3>
+          <p class="small">Kits are shipped to partner schools in Botswana along with tutorials and teacher guides.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERACTIVE MAP ============ -->
+<section class="section-dim">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">The Route</div>
+      <h2>From collection points in the U.S. to classrooms in Botswana</h2>
+      <p>Every kit follows the same path — donated locally, refurbished by our team, then shipped over 14,000 kilometers to reach the students who'll use it.</p>
+    </div>
+    <div class="route-map reveal reveal-2" style="background:#0A1628; border-radius: var(--r-lg); padding:40px 20px;">
+      <svg class="route-svg" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map showing a route from the United States to Botswana">
+        <defs>
+          <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+            <path d="M30 0H0V30" fill="none" stroke="#1B2E4A" stroke-width="1"/>
+          </pattern>
+        </defs>
+        <rect width="800" height="260" fill="url(#grid)"/>
+        <circle cx="140" cy="110" r="7" fill="#E2622B"/>
+        <circle cx="140" cy="110" r="14" fill="none" stroke="#E2622B" stroke-opacity="0.4" stroke-width="2"/>
+        <text x="100" y="150" class="route-node-label" fill="#E9EEF2" font-weight="600">UNITED STATES</text>
+        <text x="112" y="168" class="route-node-label">Collection &amp; refurbishment</text>
+
+        <circle cx="640" cy="170" r="7" fill="#CE9B3F"/>
+        <circle cx="640" cy="170" r="14" fill="none" stroke="#CE9B3F" stroke-opacity="0.4" stroke-width="2"/>
+        <text x="600" y="205" class="route-node-label" fill="#E9EEF2" font-weight="600">BOTSWANA</text>
+        <text x="612" y="223" class="route-node-label">Schools &amp; students</text>
+
+        <path class="route-path" d="M140 110 C 320 40, 480 260, 640 170" />
+        <circle r="4" fill="#3FA796">
+          <animateMotion dur="4s" repeatCount="indefinite" path="M140 110 C 320 40, 480 260, 640 170" />
+        </circle>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED IMPACT STORY ============ -->
+<section>
+  <div class="container grid grid-2" style="align-items:center;">
+    <div class="reveal card" style="padding:36px;">
+      <div class="eyebrow">Featured Impact</div>
+      <h2>One kit, a full classroom of engineers</h2>
+      <p>A single donated EV3 kit gives a class the chance to work through real engineering challenges: building a chassis that can navigate a course, writing the code that tells it where to go, and debugging why a sensor isn't reading correctly. Those are the same fundamentals used in university engineering programs and robotics careers — introduced years earlier than most students would otherwise encounter them.</p>
+      <p>Because the kits are reusable, that same equipment supports new students and new challenges every term, and our tutorials mean a teacher doesn't need a robotics background to run a great lesson.</p>
+      <a href="impact.html" class="btn btn-outline">See the Full Impact →</a>
+    </div>
+    <div class="reveal reveal-2">
+      <div class="grid" style="gap:16px;">
+        <div class="quote-card">
+          <p>"Robotics gave our students something to build, not just something to memorize."</p>
+          <div class="quote-attr">— Placeholder, Partner Educator</div>
+        </div>
+        <div class="quote-card">
+          <p>"The tutorials meant I could run a lesson confidently even without a robotics background."</p>
+          <div class="quote-attr">— Placeholder, Partner Teacher</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DONATION PROGRESS ============ -->
+<section class="section-dim" id="donate">
+  <div class="container grid grid-2" style="align-items:center; gap:48px;">
+    <div class="reveal">
+      <div class="eyebrow">Fund the Next Shipment</div>
+      <h2>Help us get these kits into classrooms</h2>
+      <p>Donations directly fund the logistics that turn a collected kit into a working classroom tool: international shipping, customs, replacement parts, and the printed and digital resources that go with every shipment.</p>
+      <ul class="small text-soft">
+        <li>International shipping &amp; freight</li>
+        <li>Customs &amp; import handling</li>
+        <li>Replacement parts &amp; sensors</li>
+        <li>Educational resources &amp; teacher guides</li>
+        <li>Future program expansion</li>
+      </ul>
+      <a href="get-involved.html#donate" class="btn btn-primary mt-16">Donate Now</a>
+    </div>
+    <div class="reveal reveal-2 progress-wrap">
+      <div class="progress-top">
+        <span class="amount">$1,010 raised</span>
+        <span class="goal">of $2,200 goal</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" data-percent="46"></div>
+      </div>
+      <div class="progress-meta">
+        <span>46% funded</span>
+        <span>Supports shipping for the current kit batch</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff; margin-bottom:10px;">
+          <svg class="brand-mark" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="8" width="26" height="18" rx="4" fill="#2E7BD6"/>
+            <circle cx="9" cy="6" r="3" fill="#E2622B"/>
+            <circle cx="21" cy="6" r="3" fill="#E2622B"/>
+          </svg>
+          Bots4Botswana
+        </div>
+        <p class="small">A student-led initiative collecting, refurbishing, and donating robotics kits to expand access to STEM education in Botswana.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="strategy.html">Strategy &amp; Sustainability</a></li>
+          <li><a href="tutorials.html">Tutorials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="get-involved.html#donate">Donate</a></li>
+          <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p class="small">Occasional updates on shipments, new tutorials, and partner schools.</p>
+        <form data-demo-form>
+          <div class="newsletter-row">
+            <input type="email" placeholder="you@email.com" required aria-label="Email address">
+            <button class="btn btn-primary btn-sm" type="submit">Sign Up</button>
+          </div>
+          <p class="form-note small mt-8"></p>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Bots4Botswana. A student-led STEM initiative.</span>
+      <span>
+        <a href="contact.html">Contact</a> · <a href="get-involved.html">Donate</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
